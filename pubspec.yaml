@@ -1,0 +1,31 @@
+name: offerzone
+description: A Flutter app for OfferZone
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^2.0.0
+  cloud_firestore: ^4.0.0
+
+  # You can add other dependencies here as needed
+  # e.g., cupertino_icons, provider, etc.
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Assets directory – add your image assets here
+  # assets:
+  #   - assets/images/
+  #   - assets/icons/
